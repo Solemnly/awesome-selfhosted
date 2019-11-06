@@ -4,10 +4,12 @@ Self-hosting is the practice of locally hosting and managing applications instea
 
 This is a list of Free Software network services and web applications which can be hosted locally. 
 
+The last update info isnt up2date, it just should show you how long a project is maybe dead.
+
 ----
 ##### D = DEMO
 ##### S = SOURCE CODE
-##### L = LAST UPDATE (YEAR)
+##### L = LAST UPDATE
 -----
 > #### Analytics
 -----
@@ -16,39 +18,53 @@ This is a list of Free Software network services and web applications which can 
 
 ###### NodeJS
 
-*Ackee / Self-hosted analytics tool for those who care about privacy. 
-([D](http://demo.ackee.electerious.com), [S](https://github.com/electerious/Ackee))
+Ackee / Self-hosted analytics tool for those who care about privacy. 
+([D](http://demo.ackee.electerious.com), [S](https://github.com/electerious/Ackee)) (L Nov 2019)
+Suet / Detailed analytics and reporting for your Mailgun transactional emails.
+([S](https://github.com/kehers/suet)) ( L July 2019)
+Hastic / Hackable time series pattern recognition tool with UI for Grafana.
+([S](https://github.com/hastic)) (L Nov 2019)
 
 ###### Perl
 
-*AWStats /  Generates web, streaming, ftp or mail server statistics graphically. 
-([S](https://github.com/eldy/awstats))
+AWStats /  Generates web, streaming, ftp or mail server statistics graphically. 
+([S](https://github.com/eldy/awstats)) (L Aug 2019)
+
+###### Python
+
+Hastic / Hackable time series pattern recognition tool with UI for Grafana.
+([S](https://github.com/hastic)) (L Nov 2019)
+
+###### PHP
+
+Matomo / Leading open-source analytics platform that gives you more than just powerful analytics, formerly known as Piwik. 
+([S](https://github.com/matomo-org/matomo)) (L Nov 2019)
+Open Web Analytics / Google Analytics and Matomo alternative.
+([S](https://github.com/padams/Open-Web-Analytics)) (L Sept 2019)
 
 ###### Go
 
-*Fathom Analytics / Simple & trustworthy website analytics. 
-([S](https://github.com/usefathom/fathom))
+Fathom Analytics / Simple & trustworthy website analytics. 
+([S](https://github.com/usefathom/fathom)) (L Oct 2019)
 
-*GoatCounter / Simple web statistics. No tracking of personal data.
-([S](https://github.com/zgoat/goatcounter))
+GoatCounter / Simple web statistics. No tracking of personal data.
+([S](https://github.com/zgoat/goatcounter)) (L Nov 2019)
 
-*KISSS / Very minimalistic (KISS) website statistics tool.
-([S](https://github.com/kis3/kis3))
+KISSS / Very minimalistic (KISS) website statistics tool.
+([S](https://github.com/kis3/kis3)) (L Nov 2019)
 
 #### Unsorted
 
 - [Countly](https://count.ly) - Real time mobile and web analytics, crash reporting and push notifications platform. ([Source Code](https://github.com/countly)) `AGPL-3.0` `Javascript`
 - [Druid](http://druid.io/) - Distributed, column-oriented, real-time analytics data store. ([Source Code](https://github.com/druid-io/druid)) `Apache-2.0` `Java`
 - [GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal. ([Source Code](https://github.com/allinurl/goaccess)) `GPL-2.0` `C`
-- [Hastic](https://hastic.io) - Hackable time series pattern recognition tool with UI for Grafana. ([Source Code](https://github.com/hastic)) `Apache-2.0` `Python/Nodejs`
-- [Matomo](https://matomo.org/) - Leading open-source analytics platform that gives you more than just powerful analytics, formerly known as Piwik. ([Source Code](https://github.com/matomo-org/)) `GPL-3.0` `PHP`
-- [Open Web Analytics](http://www.openwebanalytics.com/) - Google Analytics and Matomo alternative. ([Source Code](https://github.com/padams/Open-Web-Analytics)) `GPL-2.0` `PHP`
 - [Rakam](https://rakam.io/) - Custom analytics platform that allows you to create your own analytics services. Integrate with any data source (web, mobile, IoT etc.), analyze data with SQL and create dashboards. ([Source Code](https://github.com/rakam-io/rakam)) `Apache-2.0` `Java`
 - [Serposcope](https://serposcope.serphacker.com/) - Serposcope is a free and open-source rank tracker to monitor websites ranking in Google and improve your SEO performances. ([Source Code](https://github.com/serphacker/serposcope)) `MIT` `Java`
 - [Snowplow](http://snowplowanalytics.com/) - Have every single event, from your websites, mobile apps, desktop applications and server-side systems, stored in your own data warehouse and available to action in real-time. ([Source Code](https://github.com/snowplow/)) `Apache-2.0` `Scala`
-- [Suet](https://suet.co/) `⚠` - Detailed analytics and reporting for your Mailgun transactional emails. ([Source Code](https://github.com/kehers/suet)) `GPL-3.0` `Nodejs`
 
-_Business Intelligence_
+----
+> #### Business Intelligence
+----
 
 - [Metabase](http://www.metabase.com/) - Simple Dashboarding and GUI Query tool, Nightly Emails and Slack Integration w/ PostgreSQL, MySQL, Redshift and other DBs. ([Source Code](https://github.com/metabase/metabase)) `AGPL-3.0` `Clojure`
 - [Redash](http://redash.io) - connect to over 18 types of databases (SQL and "NoSQL"), query your data, visualize it and create dashboards. Everything has a URL that can be shared. Slack and HipChat integration. ([Demo](https://demo.redash.io), [Source Code](https://github.com/getredash/redash)) `BSD-2-Clause` `Python`
