@@ -11,15 +11,17 @@ This is a list of Free Software network services and web applications which can 
 ##### L = LAST UPDATE (YEAR)
 
 -----
-
 > Analytics
+-----
 
-> Web Analytics
+== Web Analytics
 
-> NodeJS
+= NodeJS
 
-> *Ackee* Self-hosted analytics tool for those who care about privacy. 
+=== *Ackee* Self-hosted analytics tool for those who care about privacy. 
 ([D](http://demo.ackee.electerious.com), [S](https://github.com/electerious/Ackee))
+
+*Ackee*
 
 #### Perl
 
