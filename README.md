@@ -5,7 +5,7 @@ Self-hosting is the practice of locally hosting and managing applications instea
 This is a list of Free Software network services and web applications which can be hosted locally. 
 
 ----
-##### D = DOWNLOAD
+##### D = DEMO
 ##### S = SOURCE CODE
 ##### L = LAST UPDATE (YEAR)
 -----
@@ -16,24 +16,31 @@ This is a list of Free Software network services and web applications which can 
 
 === NodeJS
 
-== *Ackee* Self-hosted analytics tool for those who care about privacy. 
-([D](http://demo.ackee.electerious.com), [S](https://github.com/electerious/Ackee))
-== Ackee Self-hosted analytics tool for those who care about privacy. 
+== Ackee / Self-hosted analytics tool for those who care about privacy. 
 ([D](http://demo.ackee.electerious.com), [S](https://github.com/electerious/Ackee))
 
-#### Perl
+=== Perl
 
-- [AWStats](http://www.awstats.org/) - Generates web, streaming, ftp or mail server statistics graphically. ([S](https://github.com/eldy/awstats))
+== AWStats /  Generates web, streaming, ftp or mail server statistics graphically. 
+([S](https://github.com/eldy/awstats))
+
+=== Go
+
+== Fathom Analytics / Simple & trustworthy website analytics. 
+([S](https://github.com/usefathom/fathom))
+
+== GoatCounter / Simple web statistics. No tracking of personal data.
+([S](https://github.com/zgoat/goatcounter))
+
+== KISSS / Very minimalistic (KISS) website statistics tool.
+([S](https://github.com/kis3/kis3))
 
 #### Unsorted
 
 - [Countly](https://count.ly) - Real time mobile and web analytics, crash reporting and push notifications platform. ([Source Code](https://github.com/countly)) `AGPL-3.0` `Javascript`
 - [Druid](http://druid.io/) - Distributed, column-oriented, real-time analytics data store. ([Source Code](https://github.com/druid-io/druid)) `Apache-2.0` `Java`
-- [Fathom Analytics](https://usefathom.com) - Simple & trustworthy website analytics. ([Source Code](https://github.com/usefathom/fathom)) `MIT` `Go`
 - [GoAccess](http://goaccess.io/) - Real-time web log analyzer and interactive viewer that runs in a terminal. ([Source Code](https://github.com/allinurl/goaccess)) `GPL-2.0` `C`
-- [GoatCounter](https://www.goatcounter.com) - Simple web statistics. No tracking of personal data. ([Source Code](https://github.com/zgoat/goatcounter)) `AGPL-3.0` `Go`
 - [Hastic](https://hastic.io) - Hackable time series pattern recognition tool with UI for Grafana. ([Source Code](https://github.com/hastic)) `Apache-2.0` `Python/Nodejs`
-- [KISSS](https://kis3.dev) - Very minimalistic (KISS) website statistics tool. ([Source Code](https://github.com/kis3/kis3)) `MIT` `Go`
 - [Matomo](https://matomo.org/) - Leading open-source analytics platform that gives you more than just powerful analytics, formerly known as Piwik. ([Source Code](https://github.com/matomo-org/)) `GPL-3.0` `PHP`
 - [Open Web Analytics](http://www.openwebanalytics.com/) - Google Analytics and Matomo alternative. ([Source Code](https://github.com/padams/Open-Web-Analytics)) `GPL-2.0` `PHP`
 - [Rakam](https://rakam.io/) - Custom analytics platform that allows you to create your own analytics services. Integrate with any data source (web, mobile, IoT etc.), analyze data with SQL and create dashboards. ([Source Code](https://github.com/rakam-io/rakam)) `Apache-2.0` `Java`
