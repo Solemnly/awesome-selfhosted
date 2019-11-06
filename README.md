@@ -12,27 +12,27 @@ This is a list of Free Software network services and web applications which can 
 > #### Analytics
 -----
 
-===== Web Analytics
+##### Web Analytics
 
-=== NodeJS
+###### NodeJS
 
-== Ackee / Self-hosted analytics tool for those who care about privacy. 
+*Ackee / Self-hosted analytics tool for those who care about privacy. 
 ([D](http://demo.ackee.electerious.com), [S](https://github.com/electerious/Ackee))
 
-=== Perl
+###### Perl
 
-== AWStats /  Generates web, streaming, ftp or mail server statistics graphically. 
+*AWStats /  Generates web, streaming, ftp or mail server statistics graphically. 
 ([S](https://github.com/eldy/awstats))
 
-=== Go
+###### Go
 
-== Fathom Analytics / Simple & trustworthy website analytics. 
+*Fathom Analytics / Simple & trustworthy website analytics. 
 ([S](https://github.com/usefathom/fathom))
 
-== GoatCounter / Simple web statistics. No tracking of personal data.
+*GoatCounter / Simple web statistics. No tracking of personal data.
 ([S](https://github.com/zgoat/goatcounter))
 
-== KISSS / Very minimalistic (KISS) website statistics tool.
+*KISSS / Very minimalistic (KISS) website statistics tool.
 ([S](https://github.com/kis3/kis3))
 
 #### Unsorted
