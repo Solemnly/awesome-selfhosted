@@ -19,9 +19,9 @@ The last update info isnt up2date, it just should show you how long a project is
 ###### NodeJS
 
 Ackee / Self-hosted analytics tool for those who care about privacy. 
-([D](http://demo.ackee.electerious.com), [S](https://github.com/electerious/Ackee)) (L Nov 2019)
+([D](http://demo.ackee.electerious.com), [S](https://github.com/electerious/Ackee)) (L Nov 2019)  
 Suet / Detailed analytics and reporting for your Mailgun transactional emails.
-([S](https://github.com/kehers/suet)) ( L July 2019)
+([S](https://github.com/kehers/suet)) ( L July 2019)  
 Hastic / Hackable time series pattern recognition tool with UI for Grafana.
 ([S](https://github.com/hastic)) (L Nov 2019)
 
