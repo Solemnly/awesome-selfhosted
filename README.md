@@ -1,115 +1,35 @@
 # Awesome-Selfhosted
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![](https://img.shields.io/travis/awesome-selfhosted/awesome-selfhosted/monthly-check?label=link%20checks)](https://github.com/awesome-selfhosted/awesome-selfhosted/issues/1767)
+Self-hosting is the practice of locally hosting and managing applications instead of renting from SaaSS providers.
 
-Self-hosting is the practice of locally hosting and managing applications instead of renting from [SaaSS](https://www.gnu.org/philosophy/who-does-that-server-really-serve.html) providers.
+This is a list of Free Software network services and web applications which can be hosted locally. 
 
-This is a list of [Free](https://en.wikipedia.org/wiki/Free_software) Software [network services](https://en.wikipedia.org/wiki/Network_service) and [web applications](https://en.wikipedia.org/wiki/Web_application) which can be hosted locally. Non-Free software is listed on the [Non-Free](non-free.md) page.
+----
 
-See [Contributing](.github/CONTRIBUTING.md).
+##### D = DOWNLOAD
+##### S = SOURCE CODE
+##### L = LAST UPDATE (YEAR)
 
---------------------
-
-- List of Software
-  - [Analytics](#analytics)
-  - [Archiving and Digital Preservation (DP)](#archiving-and-digital-preservation-dp)
-  - [Automation](#automation)
-  - [Blogging Platforms](#blogging-platforms)
-  - [Bookmarks and Link Sharing](#bookmarks-and-link-sharing)
-  - [Calendaring and Contacts Management](#calendaring-and-contacts-management)
-  - [Communication systems](#communication-systems)
-    - [Custom communication systems](#custom-communication-systems)
-    - [Email](#email)
-      - [Complete solutions](#complete-solutions)
-      - [Mail Transfer Agents](#mail-transfer-agents)
-      - [Mail Delivery Agents](#mail-delivery-agents)
-      - [Mailing lists and newsletters](#mailing-lists-and-newsletters)
-      - [Webmail clients](#webmail-clients)
-    - [IRC](#irc)
-    - [SIP/IPBX](#sip)
-    - [Social Networks and Forums](#social-networks-and-forums)
-    - [XMPP](#xmpp)
-      - [XMPP Servers](#xmpp-servers)
-      - [XMPP Web Clients](#xmpp-web-clients)
-  - [Conference Management](#conference-management)
-  - [Content Management Systems (CMS)](#content-management-systems-cms)
-    - [E-commerce](#e-commerce)
-  - [DNS](#dns)
-  - [Document Management](#document-management)
-  - [E-books and Integrated Library Systems (ILS)](#e-books-and-integrated-library-systems-ils)
-  - [Federated Identity/Authentication](#federated-identityauthentication)
-  - [Feed Readers](#feed-readers)
-  - [File Sharing and Synchronization](#file-sharing-and-synchronization)
-    - [Distributed filesystems](#distributed-filesystems)
-    - [File transfer/synchronization](#file-transfersynchronization)
-    - [Peer-to-peer filesharing](#peer-to-peer-filesharing)
-    - [Object storage/file servers](#object-storagefile-servers)
-    - [Single-click/drag-n-drop upload](#single-clickdrag-n-drop-upload)
-    - [Web based file managers](#web-based-file-managers)
-  - [Games](#games)
-  - [Gateways and terminal sharing](#gateways-and-terminal-sharing)
-  - [Groupware](#groupware)
-  - [Human Resources Management (HRM)](#human-resources-management-hrm)
-  - [Internet of Things (IoT)](#internet-of-things-iot)
-  - [Knowledge Management Tools](#knowledge-management-tools)
-  - [Learning and Courses](#learning-and-courses)
-  - [Maps and Global Positioning System (GPS)](#maps-and-global-positioning-system-gps)
-  - [Media Streaming](#media-streaming)
-    - [Multimedia Streaming](#multimedia-streaming)
-    - [Audio Streaming](#audio-streaming)
-    - [Video Streaming](#video-streaming)
-  - [Misc/Other](#miscother)
-  - [Money, Budgeting and Management](#money-budgeting-and-management)
-  - [Monitoring](#monitoring)
-  - [Note-taking and Editors](#note-taking-and-editors)
-  - [Office Suites](#office-suites)
-  - [Password Managers](#password-managers)
-  - [Pastebins](#pastebins)
-  - [Personal Dashboards](#personal-dashboards)
-  - [Photo and Video Galleries](#photo-and-video-galleries)
-  - [Polls and Events](#polls-and-events)
-    - [Booking and Scheduling](#booking-and-scheduling)
-  - [Proxy](#proxy)
-  - [Read it Later Lists](#read-it-later-lists)
-  - [Resource Planning](#resource-planning)
-    - [Enterprise Resource Planning](#enterprise-resource-planning)
-  - [Search Engines](#search-engines)
-  - [Software Development](#software-development)
-    - [Project Management](#project-management)
-    - [Bug Trackers](#bug-trackers)
-    - [IDE/Tools](#idetools)
-    - [Continuous Integration](#continuous-integration)
-    - [UX testing](#ux-testing)
-    - [FaaS/Serverless](#faasserverless)
-    - [API Management](#api-management)
-    - [Documentation Generators](#documentation-generators)
-    - [Localization](#localization)
-  - [Static site generators](#static-site-generators)
-  - [Task management/To-do lists](#task-managementto-do-lists)
-  - [Ticketing](#ticketing)
-  - [URL Shorteners](#url-shorteners)
-  - [VPN](#vpn)
-  - [Web servers](#web-servers)
-  - [Wikis](#wikis)
-- [Self-hosting Solutions](#self-hosting-solutions)
-- [List of Licenses](#list-of-licenses)
-- [External links](#external-links)
-- [Contributing](#contributing)
-- [License](#license)
-
---------------------
+-----
 
 <!-- BEGIN SOFTWARE LIST -->
 
 ## Analytics
-For personal analytics/dashboards, see [Personal Dashboards](#personal-dashboards)
 
-**[`^        back to top        ^`](#)**
+### Web Analytics
 
-_Web Analytics_
+#### NodeJS
 
-- [Ackee](https://ackee.electerious.com) - Self-hosted analytics tool for those who care about privacy. ([Demo](http://demo.ackee.electerious.com), [Source Code](https://github.com/electerious/Ackee)) `MIT` `Nodejs`
-- [AWStats](http://www.awstats.org/) - Generates web, streaming, ftp or mail server statistics graphically. ([Source Code](https://github.com/eldy/awstats)) `GPL-3.0` `Perl`
+- ##### Ackee
+Self-hosted analytics tool for those who care about privacy. 
+([D](http://demo.ackee.electerious.com), [S](https://github.com/electerious/Ackee))
+
+#### Perl
+
+- [AWStats](http://www.awstats.org/) - Generates web, streaming, ftp or mail server statistics graphically. ([S](https://github.com/eldy/awstats))
+
+#### Unsorted
+
 - [Countly](https://count.ly) - Real time mobile and web analytics, crash reporting and push notifications platform. ([Source Code](https://github.com/countly)) `AGPL-3.0` `Javascript`
 - [Druid](http://druid.io/) - Distributed, column-oriented, real-time analytics data store. ([Source Code](https://github.com/druid-io/druid)) `Apache-2.0` `Java`
 - [Fathom Analytics](https://usefathom.com) - Simple & trustworthy website analytics. ([Source Code](https://github.com/usefathom/fathom)) `MIT` `Go`
