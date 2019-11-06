@@ -38,18 +38,16 @@ Hastic / Hackable time series pattern recognition tool with UI for Grafana.
 ###### PHP
 
 Matomo / Leading open-source analytics platform that gives you more than just powerful analytics, formerly known as Piwik. 
-([S](https://github.com/matomo-org/matomo)) (L Nov 2019)
+([S](https://github.com/matomo-org/matomo)) (L Nov 2019)  
 Open Web Analytics / Google Analytics and Matomo alternative.
 ([S](https://github.com/padams/Open-Web-Analytics)) (L Sept 2019)
 
 ###### Go
 
 Fathom Analytics / Simple & trustworthy website analytics. 
-([S](https://github.com/usefathom/fathom)) (L Oct 2019)
-
+([S](https://github.com/usefathom/fathom)) (L Oct 2019)  
 GoatCounter / Simple web statistics. No tracking of personal data.
-([S](https://github.com/zgoat/goatcounter)) (L Nov 2019)
-
+([S](https://github.com/zgoat/goatcounter)) (L Nov 2019)  
 KISSS / Very minimalistic (KISS) website statistics tool.
 ([S](https://github.com/kis3/kis3)) (L Nov 2019)
 
